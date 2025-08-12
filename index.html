@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
     />
   </head>
@@ -157,50 +162,86 @@
           </ul>
         </div>
       </section>
+
       <!-- Testimonials section -->
       <section class="testimonials-section">
-        
         <h2 class="section-title">Testimonal</h2>
-        <div class="section-content">
-          <div class="slider-container">
+        <div class="section-content ">
+          <div class="slider-container swiper">
             <div class="slider-wrapper">
-              <ul class="testimonials-list">
-                <li class="testimonial">
-                  <img src="/assets/images/user-1.jpg" alt="user" class="user-image" />
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="/assets/images/user-1.jpg"
+                    alt="user"
+                    class="user-image"
+                  />
                   <h3 class="name">Sarah</h3>
-                  <i class="feedback">"love the french toast. perfectly balanced and rich. will
-                    order again.</i>
+                  <i class="feedback"
+                    >"love the french toast. perfectly balanced and rich. will
+                    order again.</i
+                  >
                 </li>
-                <li class="testimonial">
-                  <img src="/assets/images/user-2.jpg" alt="user" class="user-image" />
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="/assets/images/user-2.jpg"
+                    alt="user"
+                    class="user-image"
+                  />
                   <h3 class="name">Sarah</h3>
-                  <i class="feedback">"love the french toast. perfectly balanced and rich. will
-                    order again.</i>
+                  <i class="feedback"
+                    >"love the french toast. perfectly balanced and rich. will
+                    order again.</i
+                  >
                 </li>
-                <li class="testimonial">
-                  <img src="/assets/images/user-3.jpg" alt="user" class="user-image" />
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="/assets/images/user-3.jpg"
+                    alt="user"
+                    class="user-image"
+                  />
                   <h3 class="name">Sarah</h3>
-                  <i class="feedback">"love the french toast. perfectly balanced and rich. will
-                    order again.</i>
+                  <i class="feedback"
+                    >"love the french toast. perfectly balanced and rich. will
+                    order again.</i
+                  >
                 </li>
-                <li class="testimonial">
-                  <img src="/assets/images/user-4.jpg" alt="user" class="user-image" />
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="/assets/images/user-4.jpg"
+                    alt="user"
+                    class="user-image"
+                  />
                   <h3 class="name">Sarah</h3>
-                  <i class="feedback">"love the french toast. perfectly balanced and rich. will
-                    order again.</i>
+                  <i class="feedback"
+                    >"love the french toast. perfectly balanced and rich. will
+                    order again.</i
+                  >
                 </li>
-                <li class="testimonial">
-                  <img src="/assets/images/user-5.jpg" alt="user" class="user-image" />
+                <li class="testimonial swiper-slide">
+                  <img
+                    src="/assets/images/user-5.jpg"
+                    alt="user"
+                    class="user-image"
+                  />
                   <h3 class="name">Sarah</h3>
-                  <i class="feedback">"love the french toast. perfectly balanced and rich. will
-                    order again.</i>
+                  <i class="feedback"
+                    >"love the french toast. perfectly balanced and rich. will
+                    order again.</i
+                  >
                 </li>
               </ul>
+
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev swiper-slide-bullet"></div>
+              <div class="swiper-button-next swiper-slide-bullet"></div>
             </div>
           </div>
         </div>
       </section>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/js/script.js"></script>
   </body>
 </html>
