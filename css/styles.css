@@ -259,7 +259,26 @@ font-weight: var(--font-weight-semibold);
   max-width: 83%;
   aspect-ratio: 1;
 }
+.testimonials-section{
+  background: var(--light-pink-color);
 
+}
+.testimonials-section .testimonials-list .user-image{
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--border-radius-circle);
+  margin-top: 25px;
+}
+.testimonials-section .testimonials-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
 
 
 
