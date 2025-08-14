@@ -329,6 +329,41 @@ font-weight: var(--font-weight-semibold);
 }
 
 
+.image-modal {
+  display: none; 
+  position: fixed;
+  inset: 0; 
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.modal-container {
+  position: relative; 
+  display: inline-block;
+}
+.modal-image {
+  width: 60vw;
+  height: 80vh;
+  border-radius: 8px;
+  display: block;
+ 
+}
+.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 22px;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.close:hover {
+  background: rgba(255, 0, 0, 0.7);
+}
+
 
 .contact-section{
   padding: 50px 0 100px;
@@ -537,4 +572,9 @@ max-width: 100%;
 .footer-section{
   flex-direction: column;
 }
+.modal-image {
+  height: fit-content;
+  aspect-ratio: 1;
+}
+
 }
