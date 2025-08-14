@@ -14,6 +14,9 @@ A simple and responsive website showcasing a coffee shop menu, contact informati
 
 ---
 
+## 🚀 Live Demo
+[🔗 View Demo on Netlify](https://my-coffeshop.netlify.app/)
+
 ## 🛠️ Technologies
 
 * 🌐 HTML5
